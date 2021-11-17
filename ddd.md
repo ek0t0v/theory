@@ -106,3 +106,7 @@ https://martinfowler.com/bliki/BoundedContext.html
 - **Generic subdomain** - subdomain which is less valuable for business than Core domain. It also is generic enough to allow buying it off the shelf (unlike supporting domain).
 
 > Перевести на русский.
+
+## Что почитать/посмотреть
+
+- [All our aggregates are wrong](https://www.youtube.com/watch?v=hev65ozmYPI)

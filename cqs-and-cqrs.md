@@ -14,4 +14,4 @@
 
 ## Что почитать/посмотреть
 
-- https://stackoverflow.com/questions/43433318/cqrs-command-return-values
+- [Command return values](https://stackoverflow.com/questions/43433318/cqrs-command-return-values)
