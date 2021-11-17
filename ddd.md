@@ -110,3 +110,4 @@ https://martinfowler.com/bliki/BoundedContext.html
 ## Что почитать/посмотреть
 
 - [All our aggregates are wrong](https://www.youtube.com/watch?v=hev65ozmYPI)
+- [Context mapping](https://github.com/ddd-crew/context-mapping)
