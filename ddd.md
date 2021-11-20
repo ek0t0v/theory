@@ -10,8 +10,13 @@
 - [Bounded context](#bounded-context)
 - [Ассоциации между моделями](#ассоциации-между-моделями)
 - [Виды доменов](#виды-доменов)
+- [Что почитать/посмотреть](#что-почитать-посмотреть)
 
-Изоляция бизнес-логики в DDD очень важна, вся бизнес-логика должна быть сосредоточена в доменном уровне.
+## Основные принципы
+
+- мы моделируем **поведение**, а не **данные**
+- не существует "правильных" моделей, но некоторые модели полезнее других
+- бизнес-логика должна быть сосредоточена в доменных моделях
 
 ## Entity
 
@@ -111,3 +116,4 @@ https://martinfowler.com/bliki/BoundedContext.html
 
 - [All our aggregates are wrong](https://www.youtube.com/watch?v=hev65ozmYPI)
 - [Context mapping](https://github.com/ddd-crew/context-mapping)
+- [DDD mistakes](https://www.infoq.com/news/2015/07/ddd-mistakes)
