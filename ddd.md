@@ -115,5 +115,6 @@ https://martinfowler.com/bliki/BoundedContext.html
 ## Что почитать/посмотреть
 
 - [All our aggregates are wrong](https://www.youtube.com/watch?v=hev65ozmYPI)
+- [Don't create aggregate roots](https://udidahan.com/2009/06/29/dont-create-aggregate-roots/comment-page-2)
 - [Context mapping](https://github.com/ddd-crew/context-mapping)
 - [DDD mistakes](https://www.infoq.com/news/2015/07/ddd-mistakes)
