@@ -2,6 +2,7 @@
 
 - [DDD это...](#ddd-это)
 - [Ключевые понятия](#ключевые-понятия)
+    - [Ограниченный контекст (bounded context)](#ограниченный-контекст-bounded-context) 
     - [Сущность (entity)](#сущность-entity)
     - [Объект-значение (value object)](#объект-значение-value-object)
     - [Агрегат (aggregate)](#агрегат-aggregate)
@@ -28,6 +29,10 @@
 - to be continued...
 
 ## Ключевые понятия
+
+### Ограниченный контекст (bounded context)
+
+![bounded-context-1](static/bounded-context-1.png)
 
 ### Сущность (entity)
 
