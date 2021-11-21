@@ -5,7 +5,7 @@
     - [Сущность (entity)](#сущность-entity)
     - [Объект-значение (value object)](#объект-значение-value-object)
     - [Агрегат (aggregate)](#агрегат-aggregate)
-    - [Сервис (service)](#сервис-service))
+    - [Сервис (service)](#сервис-service)
     - [Фабрика (factory)](#фабрика-factory)
     - [Хранилище (repository)](#хранилище-repository)
 - [Виды доменов](#виды-доменов)
