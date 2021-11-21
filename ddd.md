@@ -116,3 +116,4 @@ Generic subdomain - subdomain which is less valuable for business than Core doma
 - [Don't create aggregate roots](https://udidahan.com/2009/06/29/dont-create-aggregate-roots/comment-page-2)
 - [Context mapping](https://github.com/ddd-crew/context-mapping)
 - [Bounded context](https://martinfowler.com/bliki/BoundedContext.html)
+- [Domain model purity vs. domain model completeness](https://enterprisecraftsmanship.com/posts/domain-model-purity-completeness)
