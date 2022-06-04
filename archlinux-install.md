@@ -44,6 +44,9 @@
 > - zsh-completions
 > - chromium
 > - gnome-passwordsafe
+> - ttf-fira-sans
+> - ttf-fira-code
+> - ttf-fira-mono
 
 - `genfstab -t PARTUUID -p /mnt >> /mnt/etc/fstab`
 - `arch-chroot /mnt`
