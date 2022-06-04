@@ -21,7 +21,30 @@
 
 ## Установка
 
-- pacstrap /mnt base{,-devel} linux{,-firmware} intel-ucode netctl dialog dhcpcd net-tools wpa_supplicant wireless_tools networkmanager efibootmgr gnome nano git docker docker-compose ...
+- pacstrap /mnt base{,-devel} linux{,-firmware} efibootmgr {пакеты}
+
+> Мой список пакетов для установки:
+> 
+> - intel-ucode
+> - netctl
+> - dialog
+> - dhcpcd
+> - net-tools
+> - wpa_supplicant
+> - wireless_tools
+> - networkmanager
+> - nvidia
+> - gnome
+> - nano 
+> - git
+> - docker
+> - docker-compose
+> - ntfs-3g
+> - zsh
+> - zsh-completions
+> - chromium
+> - gnome-passwordsafe
+
 - genfstab -t PARTUUID -p /mnt >> /mnt/etc/fstab
 - arch-chroot /mnt
 - setfont UniCyr_8x16
@@ -49,4 +72,14 @@
 
 ## После перезагрузки
 
-...
+- sudo -i
+- HISTFILE=/dev/null
+- wifi-menu
+- pacman-key --init
+- pacman-key --populate archlinux
+- sudo gpasswd -a {user} docker
+- sudo systemctl enable docker
+- sudo systemctl start docker
+- sudo systemctl enable NetworkManager
+- sudo systemctl enable gdm
+- timedatectl set-ntp 1
