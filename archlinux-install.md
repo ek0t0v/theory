@@ -93,10 +93,11 @@
 
 ## Snap
 
-- 'yay -Ss snapd`
+- `yay -Ss snapd`
 - `sudo systemctl enable snapd.socket`
 - `sudo systemctl start snapd.socket`
 - `sudo ln -s /var/lib/snapd/snap /snap`
+- перезайти в систему
 
 ## Принтер
 
