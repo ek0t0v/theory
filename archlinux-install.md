@@ -83,3 +83,7 @@
 - `sudo systemctl enable NetworkManager`
 - `sudo systemctl enable gdm`
 - `timedatectl set-ntp 1`
+
+## Разное
+
+- `git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si`
