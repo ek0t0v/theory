@@ -87,3 +87,10 @@
 ## Разное
 
 - `git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si`
+
+## Snap
+
+- 'yay -Ss snapd`
+- `sudo systemctl enable snapd.socket`
+- `sudo systemctl start snapd.socket`
+- `sudo ln -s /var/lib/snapd/snap /snap`
