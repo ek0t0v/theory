@@ -97,3 +97,10 @@
 - `sudo systemctl enable snapd.socket`
 - `sudo systemctl start snapd.socket`
 - `sudo ln -s /var/lib/snapd/snap /snap`
+
+## Принтер
+
+- установить cups и сделать `systemctl enable cups`
+- установить драйвер `yay -S epson-inkjet-printer-escpr`
+- [настройка cups](https://rtfm.co.ua/arch-linux-cups-i-hplip-podklyuchenie-printera)
+- сканирование - `sane-find-scanner` и `imagescan -L`, также нужно добавить `usb 0x04b8 0x1143` в `/etc/sane.d/epsonds.conf` и перезагрузиться
