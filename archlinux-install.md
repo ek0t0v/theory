@@ -80,15 +80,19 @@
 ## После перезагрузки
 
 - `sudo -i`
+
 - `HISTFILE=/dev/null`
 - `wifi-menu`
+
 - `pacman-key --init`
 - `pacman-key --populate archlinux`
+
 - `sudo gpasswd -a {user} docker`
+
 - `sudo systemctl enable docker`
-- `sudo systemctl start docker`
 - `sudo systemctl enable NetworkManager`
 - `sudo systemctl enable gdm`
+
 - `timedatectl set-ntp 1`
 
 ## Разное
