@@ -39,6 +39,7 @@
 > - networkmanager
 > - nvidia
 > - gnome
+> - gnome-tweaks
 > - nano 
 > - git
 > - docker
@@ -54,7 +55,7 @@
 - `genfstab -t PARTUUID -p /mnt >> /mnt/etc/fstab`
 - `arch-chroot /mnt`
 - `setfont UniCyr_8x16`
-- `nano /etc/locale.gen` раскомментировать ru_RU.UTF-8
+- `nano /etc/locale.gen` раскомментировать en_US.UTF-8 и ru_RU.UTF-8
 - `locale-gen`
 - `export LANG=ru_RU.UTF-8`
 - `cat > /etc/vconsole.conf << EOF
