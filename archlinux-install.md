@@ -19,9 +19,9 @@
 
 ## Монтирование разделов
 
-- mount /dev/sda3 /mnt
-- mkdir -p /mnt/boot/esp && mount /dev/sda1 /mnt/boot/esp
-- mkdir -p /mnt/home && mount /dev/sda2 /mnt/home
+- `mount /dev/sda3 /mnt`
+- `mkdir -p /mnt/boot/esp && mount /dev/sda1 /mnt/boot/esp`
+- `mkdir -p /mnt/home && mount /dev/sda2 /mnt/home`
 
 ## Установка
 
