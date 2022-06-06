@@ -80,26 +80,24 @@
 ## После перезагрузки
 
 - `sudo -i`
-
 - `HISTFILE=/dev/null`
 - `wifi-menu`
-
 - `pacman-key --init`
 - `pacman-key --populate archlinux`
-
 - `sudo gpasswd -a {user} docker`
+- `timedatectl set-ntp 1`
+
+## Активация сервисов
 
 - `sudo systemctl enable docker`
 - `sudo systemctl enable NetworkManager`
 - `sudo systemctl enable gdm`
 
-- `timedatectl set-ntp 1`
-
-## Разное
+## yay
 
 - `git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si`
 
-## Snap
+## snap
 
 - `yay -Ss snapd`
 - `sudo systemctl enable snapd.socket`
@@ -107,9 +105,76 @@
 - `sudo ln -s /var/lib/snapd/snap /snap`
 - перезайти в систему
 
-## Принтер
+## Настройка принтера
 
 - установить cups и сделать `systemctl enable cups`
 - установить драйвер `yay -S epson-inkjet-printer-escpr`
 - [настройка cups](https://rtfm.co.ua/arch-linux-cups-i-hplip-podklyuchenie-printera)
 - сканирование - `sane-find-scanner` и `imagescan -L`, также нужно добавить `usb 0x04b8 0x1143` в `/etc/sane.d/epsonds.conf` и перезагрузиться
+
+## Фикс кривых (отсутствующих) символов в терминале
+
+- `yay -S ttf-symbola`
+
+## .zshrc
+
+```
+autoload -U colors && colors
+
+PROMPT='%B%F{white}%n@%m%f %F{green}%B%~%f ${vcs_info_msg_0_}%b'
+RPROMPT='[%F{yellow}%?%f]'
+
+# git
+zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
+fpath=(~/.zsh/functions $fpath)
+autoload -Uz compinit && compinit
+autoload -Uz vcs_info
+precmd() { vcs_info }
+zstyle ':vcs_info:git:*' formats '%F{cyan}[%b]%f '
+setopt PROMPT_SUBST
+
+# autocomplete
+autoload -U compinit
+compinit
+setopt completealiases # для алиасов
+
+# разное
+setopt HIST_IGNORE_DUPS # игнорирование повторяющихся строк в истории
+
+# автозавершение с использованием клавиши-стрелки
+zstyle ':completion:*' menu select
+
+# цветной вывод команд
+if [ -f /usr/bin/grc ]; then
+ alias gcc="grc --colour=auto gcc"
+ alias irclog="grc --colour=auto irclog"
+ alias log="grc --colour=auto log"
+ alias netstat="grc --colour=auto netstat"
+ alias ping="grc --colour=auto ping"
+ alias proftpd="grc --colour=auto proftpd"
+ alias traceroute="grc --colour=auto traceroute"
+fi
+```
+
+## Удаление лишнего софта
+
+Вот что я удалял:
+
+- gnome-books
+- gnome-contacts
+- gnome-font-viewer
+- gnome-maps
+- gnome-music
+- gnome-photos
+- gnome-software
+- gnome-user-docs
+- gnome-video-effects
+- cheese
+- gnome-weather
+- epiphany
+- gnome-boxes
+- gnome-characters
+- gnome-calculator
+- totem
+
+> Разобраться, как при установке избежать этих пакетов. Т.е. мне нужно ставить самый-самый базовый gnome, без этих программ.
