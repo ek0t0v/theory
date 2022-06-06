@@ -37,6 +37,7 @@
 > - wpa_supplicant
 > - wireless_tools
 > - networkmanager
+> - networkmanager-vpnc
 > - nvidia
 > - gnome
 > - gnome-tweaks
