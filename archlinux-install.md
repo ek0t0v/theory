@@ -13,6 +13,10 @@
 
 > Внимание - swap-раздел здесь не создается (т.к. лично мне без надобности).
 
+- `mkfs.vfat -F32 /dev/sda1 -n ESP`
+- `mkfs.ext4 /dev/sda2 -L home`
+- `mkfs.ext4 /dev/sda3 -L root`
+
 ## Монтирование разделов
 
 - mount /dev/sda3 /mnt
