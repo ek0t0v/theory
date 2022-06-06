@@ -43,7 +43,6 @@
 > - git
 > - docker
 > - docker-compose
-> - ntfs-3g
 > - zsh
 > - zsh-completions
 > - chromium
