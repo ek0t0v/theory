@@ -169,7 +169,7 @@ final class Customer
 
 Каждая часть знания должна иметь единственное, непротиворечивое и авторитетное представление в рамках системы.
 
-Нарушения принципа DRY называют WET - "write everything twice" (пиши всё по два раза) или "we enjoy typing" (нам нравится печатать).
+https://verraes.net/2014/08/dry-is-about-knowledge
 
 ## KISS
 
