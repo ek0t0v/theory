@@ -127,3 +127,4 @@ Generic subdomain - subdomain which is less valuable for business than Core doma
 - [Bounded context](https://martinfowler.com/bliki/BoundedContext.html)
 - [Domain model purity vs. domain model completeness](https://enterprisecraftsmanship.com/posts/domain-model-purity-completeness)
 - [The art of discovering bounded contexts](https://www.youtube.com/watch?v=ez9GWESKG4I)
+- [DDD needn't be hard](https://www.thoughtworks.com/insights/blog/domain-driven-design-neednt-be-hard-heres-how-start)
