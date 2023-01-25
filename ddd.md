@@ -129,3 +129,6 @@ Generic subdomain - subdomain which is less valuable for business than Core doma
 - [The art of discovering bounded contexts](https://www.youtube.com/watch?v=ez9GWESKG4I)
 - [DDD needn't be hard](https://www.thoughtworks.com/insights/blog/domain-driven-design-neednt-be-hard-heres-how-start)
 - [Domain events salvation](https://udidahan.com/2009/06/14/domain-events-salvation)
+- [What is domain logic](https://enterprisecraftsmanship.com/posts/what-is-domain-logic)
+- [Domain model isolation](https://enterprisecraftsmanship.com/posts/domain-model-isolation)
+- [Immutable architecture](https://enterprisecraftsmanship.com/posts/immutable-architecture)
