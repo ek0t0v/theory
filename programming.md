@@ -250,3 +250,4 @@ final class Customer
 
 - [Функторы, аппликативные функторы и монады в картинках](https://habr.com/ru/post/183150)
 - [Simple made easy](https://www.youtube.com/watch?v=SxdOUGdseq4)
+- [Principle_of_least_astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)
