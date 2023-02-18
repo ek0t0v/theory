@@ -28,6 +28,7 @@
 - [Tell, don't ask](#tell-dont-ask)
 - [Law of Demeter](#law-of-demeter)
 - [Coupling](#coupling)
+- [Cohesion](#cohesion)
 - [Инварианты](#инварианты)
 - [Рефакторинг](#рефакторинг)
     - [Нефункциональные характеристики программ](#нефункциональные-характеристики-программ)
@@ -208,7 +209,7 @@ final class Customer
 
 ### Control
 
-См. [Tell, don't ask](#tell_dont_ask)
+См. [Tell, don't ask](##tell_dont_ask)
 
 ### Stamp (data-structured)
 
