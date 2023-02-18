@@ -209,7 +209,7 @@ final class Customer
 
 ### Control
 
-См. [Tell, don't ask](##tell_dont_ask)
+См. [Tell, don't ask](#tell-dont-ask)
 
 ### Stamp (data-structured)
 
