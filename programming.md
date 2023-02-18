@@ -198,6 +198,36 @@ final class Customer
 
 "Плохие" виды связанности - content coupling, common (или global) coupling, temporal coupling, тысячи их. Вот тут подробнее - https://en.wikipedia.org/wiki/Coupling_(computer_programming)#Types_of_coupling.
 
+Виды:
+
+### Content
+
+### Common
+
+### External
+
+### Control
+
+См. [Tell, don't ask](#tell_dont_ask)
+
+### Stamp (data-structured)
+
+Когда в модуль передается больше данных чем необходимо.
+
+```php
+final class SomeException extends \Exception
+{
+    public function __construct(Entity $entity) // Хотя достаточно передать только идентификатор.
+    {
+        parent::__construct(\sprintf('Something went wrong with entity #%s', $entity->id()->value));
+    }
+        
+}
+```
+
+### Data
+
+### 
 Избавиться от связанности не получится, можно только выбрать варианты получше, например, data coupling или message coupling.
 
 ![image](https://user-images.githubusercontent.com/13543469/219868639-6e1bbd97-2462-43b6-a6b3-4ab3d9985611.png)
