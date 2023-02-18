@@ -132,3 +132,4 @@ Generic subdomain - subdomain which is less valuable for business than Core doma
 - [What is domain logic](https://enterprisecraftsmanship.com/posts/what-is-domain-logic)
 - [Domain model isolation](https://enterprisecraftsmanship.com/posts/domain-model-isolation)
 - [Immutable architecture](https://enterprisecraftsmanship.com/posts/immutable-architecture)
+- [Repositories](https://softwareengineering.stackexchange.com/a/434221)
