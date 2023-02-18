@@ -200,6 +200,23 @@ final class Customer
 
 Избавиться от связанности не получится, можно только выбрать варианты получше, например, data coupling или message coupling.
 
+![image](https://user-images.githubusercontent.com/13543469/219868639-6e1bbd97-2462-43b6-a6b3-4ab3d9985611.png)
+
+## Cohesion
+
+https://en.wikipedia.org/wiki/Cohesion_(computer_science)#:~:text=In%20computer%20programming%2C%20cohesion%20refers,concept%20served%20by%20that%20class.
+
+Виды:
+
+- coincidental (worst)
+- logical
+- temporal
+- procedural
+- communicational/informational
+- sequential
+- functional (best)
+- perfect cohesion (atomic)
+
 ## Инварианты
 
 В коде они обычно выглядят так:
