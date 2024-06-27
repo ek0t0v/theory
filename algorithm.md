@@ -86,4 +86,5 @@
 
 ## Что почитать/посмотреть
 
+- [Hash-таблицы - понятное объяснение](https://www.youtube.com/watch?v=rPp46idEvnM)
 - [Что называется хешированием?](https://www.youtube.com/watch?v=ooVnhz561iY)
