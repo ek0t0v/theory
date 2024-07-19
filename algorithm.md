@@ -41,7 +41,7 @@
 - преобразование Фурье ([статья](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/))
 - симплекс-метод
 - алгоритм Дейкстры
-- [Digital differential_analyzer](https://en.wikipedia.org/wiki/Digital_differential_analyzer_(graphics_algorithm))
+- [Digital differential analyzer](https://en.wikipedia.org/wiki/Digital_differential_analyzer_(graphics_algorithm))
 
 ## Структуры данных
 
