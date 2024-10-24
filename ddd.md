@@ -4,8 +4,7 @@
 - [Ключевые понятия](#ключевые-понятия)
     - [Ограниченный контекст (bounded context)](#ограниченный-контекст-bounded-context)
     - [Карта контекстов (context map)](#карта-контекстов-context-map)
-    - [[#Сущность (entity)]]
-    - (#сущность-entity)
+    - [Сущность (entity)](#сущность-entity)
     - [Объект-значение (value object)](#объект-значение-value-object)
     - [Агрегат (aggregate)](#агрегат-aggregate)
     - [Сервис (service)](#сервис-service)
